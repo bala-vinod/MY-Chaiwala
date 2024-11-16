@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFF00;
+  color: #FF6666;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #6b4f4f;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 150px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #ffeecc;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #6b4f4f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #573d3d;
+}
+
+.hidden {
+  display: none;
+}
+/* Add hover effect for input fields */
+input:hover, textarea:hover {
+  border: 2px solid #FFD700; /* Yellow border */
+  background-color: #fffbea; /* Light yellow background */
+  transition: 0.3s ease; /* Smooth transition effect */
+}
+
+/* Add focus effect for input fields */
+input:focus, textarea:focus {
+  border: 2px solid #FFA500; /* Orange border */
+  background-color: #fff7e6; /* Light orange background */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px #FFA500; /* Add shadow effect */
+}
+.required {
+  color: red; /* Star color */
+  font-weight: bold; /* Make it bold */
+  margin-left: 5px; /* Adds spacing between the label and the star */
+}
+
